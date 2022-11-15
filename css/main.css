@@ -1,0 +1,94 @@
+body {
+  background-color: #313336;
+  color: #FFFFFF;
+}
+nav {
+  border-style: hidden hidden solid;
+  border-width: 0.5px;
+  border-color: #FFFF00;
+  padding: 0px;
+  margin: 0p;
+}
+#myCart{
+  color:white;
+}
+#myCart:hover{
+  color: #000;
+  text-decoration: none;
+}
+.dropdown>a:hover{
+  background-color: #313336;
+}
+#text{
+  color: #FFFF00;
+}
+#background-image{
+  background-color: #000000;
+  height: 810px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 50% 400px;
+  background-attachment: fixed;
+  position: relative;
+  background-image: url(https://thumbs.dreamstime.com/b/close-up-shopping-carts-black-background-trolley-sale-concept-empty-grocery-cart-isolated-over-174093316.jpg);
+}
+#image-1{
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: auto 200px;
+  background-image: url(https://www.atomicaccess.co.za/wp-content/uploads/2018/04/Atomic-Access-Dark-bg.png);
+  z-index: 10;
+}
+#image-2{
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  bottom: 230px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 350px;
+  background-image: url(https://cdn.dribbble.com/users/3378086/screenshots/14842628/media/b3f681164c60c14ad3e2adb78163c0b2.gif);
+}
+#cart-container{
+  margin: 0;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  margin-left: 120px;
+}
+.row>div{
+  border-style: solid;
+  border-color: #313336;
+  color: #313336;
+  padding: 5px;
+  background-color: #FFFFFF;
+}
+.product_name{
+  height: 60px;
+  font-size: 20px;
+}
+.products_images{
+  width: 240px;
+  height: 260px;
+  margin-left: 0;
+}
+.details_image{
+  width: 310px;
+  height: 320px;
+  padding: 10px;
+}
+.select_item {
+  background-color: lightgrey;
+}
+#footer {
+  background-color: #FFFF00;
+  padding-top: 30px;
+  margin-top: 20px;
+  height: 80px;
+  color: #FFFF00;
+  background-color: orange;
+}
